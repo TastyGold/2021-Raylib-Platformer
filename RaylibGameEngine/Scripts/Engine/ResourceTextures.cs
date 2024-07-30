@@ -12,8 +12,8 @@ namespace Engine
     public static class ResourceTextures
     {
         #region References
-        public static Texture2D grassTileset = LoadTextureFromResource(RaylibGameEngine.Properties.Resources.templetileset);
-        public static Texture2D grassSemisolidTileset = LoadTextureFromResource(RaylibGameEngine.Properties.Resources.templetilesetsemisolid);
+        public static Texture2D grassTileset = LoadTextureFromResource(RaylibGameEngine.Properties.Resources.grassTileset);
+        public static Texture2D grassSemisolidTileset = LoadTextureFromResource(RaylibGameEngine.Properties.Resources.tilesetsemisolid);
         public static Texture2D crystalTileset = LoadTextureFromResource(RaylibGameEngine.Properties.Resources.rockyTileset);
         public static Texture2D crystalSemisolidTileset = LoadTextureFromResource(RaylibGameEngine.Properties.Resources.crystalSemisolidSheet);
         public static Texture2D playerSpriteSheet = LoadTextureFromResource(RaylibGameEngine.Properties.Resources.playerSpriteSheet);

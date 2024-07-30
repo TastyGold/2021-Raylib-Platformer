@@ -13,8 +13,8 @@ namespace Engine
             Gameplay
         }
 
-        public static LaunchMode startupMode = LaunchMode.Gameplay;
-        public static string levelPath = "NewTestLevel.lvl";
+        public static LaunchMode startupMode = LaunchMode.Editor;
+        public static string levelPath = "LevelOne.lvl";
 
         public static void Main()
         {

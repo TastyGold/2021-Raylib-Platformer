@@ -301,7 +301,7 @@ namespace Player
         {
             hitbox = new Hitbox2D(parent: Transform, localPosition: new Vector2(Screen.pxl * -6, -0.6875f), size: new Vector2(Screen.pxl * 12, Screen.pxl * 18));
             Position = Vector2.Zero;
-            spriteSheet.texture = Raylib.LoadTexture("..\\..\\..\\Assets\\Player\\girlplayer2.png");//ResourceTextures.playerSpriteSheet;
+            spriteSheet.texture = /*Raylib.LoadTexture("..\\..\\..\\Assets\\Player\\girlplayer2.png");/*/ResourceTextures.playerSpriteSheet;
             spriteOffset = new Vector2(-0.5f, -0.6875f);
             OrderInLayer = 100;
             isStationary = false;
